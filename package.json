@@ -1,0 +1,26 @@
+{
+  "name": "react-native-animation",
+  "version": "0.0.1",
+  "description": "Animation React Native SDK",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mygu/react-native-animation.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "SDK",
+    "Animation"
+  ],
+  "author": "mygu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mygu/react-native-animation/issues"
+  },
+  "homepage": "https://github.com/mygu/react-native-animation#readme",
+  "devDependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.24.1"
+  }
+}
