@@ -9,9 +9,9 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
 /**
  * Created by mygu on 16/6/20.
  */
-public class LoveAnimationViewManager extends SimpleViewManager<PeriscopeLayout> implements LifecycleEventListener {
+public class HeartAnimationViewManager extends SimpleViewManager<PeriscopeLayout> implements LifecycleEventListener {
 
-    public static final String REACT_CLASS = "RCTLoveAnimation";
+    public static final String REACT_CLASS = "RCTHeartAnimation";
 
     private RCTEventEmitter mEventEmitter;
     private ThemedReactContext reactContext;

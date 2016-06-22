@@ -9,7 +9,7 @@ import React, {
     Component
 } from 'react-native';
 
-class LoveAnimation extends Component {
+class HeartAnimation extends Component {
 
     constructor(props, context) {
         super(props, context);
@@ -19,7 +19,7 @@ class LoveAnimation extends Component {
         const nativeProps = Object.assign({}, this.props);
         Object.assign(nativeProps, {});
         return (
-            <RCTLoveAnimation
+            <RCTHeartAnimation
                 {...nativeProps}
             />
         )
@@ -31,6 +31,6 @@ LoveAnimation.propTypes = {
     ...View.propTypes
 };
 
-const RCTLoveAnimation = requireNativeComponent('RCTLoveAnimation', LoveAnimation);
+const RCTHeartAnimation = requireNativeComponent('RCTHeartAnimation', HeartAnimation);
 
-module.exports = LoveAnimation;
+module.exports = HeartAnimation;

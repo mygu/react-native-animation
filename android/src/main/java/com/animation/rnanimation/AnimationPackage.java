@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Created by mygu on 16/6/20.
  */
-public class DanmakuPackage implements ReactPackage {
+public class AnimationPackage implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
@@ -28,7 +28,7 @@ public class DanmakuPackage implements ReactPackage {
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
-                new LoveAnimationViewManager()
+                new HeartAnimationViewManager()
         );
     }
 }
