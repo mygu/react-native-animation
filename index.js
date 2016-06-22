@@ -3,7 +3,7 @@
  */
 var ReactNative = {
     // Components
-    LoveAnimation: require('./LoveAnimation')
+    HeartAnimation: require('./HeartAnimation')
 };
 
 module.exports = ReactNative;
